@@ -1,0 +1,50 @@
+/*Reset Styles*/
+
+* {
+	padding: 0px;
+	margin: 0 auto;
+	}
+	
+body {
+	background: #B3E3FF;
+	}
+	
+h1 {
+	font-family: 'Kreon', serif;
+	font-weight: 300;
+	font-size: 36px;
+	color: #FFF;
+	}
+	
+h5 {
+	font-family: 'Kreon', serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #B3E3FF;
+	}
+	
+/*Main Styles*/
+
+#wrapper {
+	width: 600px;
+	margin: 0 auto;
+	background: #FFF;
+	border-radius: 7px;
+	margin-top: 40px;
+	}
+	
+#header {
+	height: 105px;
+	background-image: url(../images/header-bg.png);
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	padding-left: 40px;
+	}
+	#header h1 {
+		padding-top: 20px;
+		}
+		
+fieldset.portfolio {
+	height: 235px;
+	background: #F3F5F5;
+	}
