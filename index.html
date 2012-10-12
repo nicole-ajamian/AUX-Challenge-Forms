@@ -7,7 +7,7 @@
   
 	<link rel="stylesheet" href="css/style.css">
   <link href='http://fonts.googleapis.com/css?family=Kreon:400,300,700' rel='stylesheet' type='text/css'>
-  <script src="js/libs/modernizr-2.5.3.min.js"></script>
+  <script src="build/assets/js/modernizr.custom.11638.js"></script>
 </head>
 <body>
 	<div id="wrapper">
@@ -21,9 +21,9 @@
     </div><!--end circle-->
     <fieldset class="portfolio">
   		<legend>First, name your portfolio</legend>
-    	<label for="title">Portfolio Title</label>
-    	<input type="text" name="title" id="title" />
-      <label for="address">Portfolio Address</label>
+    	<label for="title">Portfolio title</label></br>
+    	<input type="text" name="title" id="title" /></br>
+      <label for="address">Portfolio address</label></br>
       <input type="email" id="email" name="email"/>
     </fieldset>
   	<div class="circle">
@@ -31,26 +31,25 @@
     </div><!--end circle-->
     <fieldset class="account">
     	<legend>Now, enter your account details</legend>
-      <label for="name">Name</label>
-      <input type="text" name="name" id="name" />
-      <label for="email">Email</label>
+      <label for="name">Name</label></br>
+      <input type="text" name="name" id="name" /></br>
+      <label for="email">Email</label></br>
       <input type="email" id="email" name="email">
       <h4>NOTE: we'll never share your email, promise.</h4>
-      <label for="password">Password</label>
+      <label for="password">Password</label></br>
       <input type="password" id="pw" name="password" />
     </fieldset>
   	<div class="circle">
     	<h4>3</h4>
     </div><!--end circle-->
-    <fieldset>
+    <fieldset class="payment">
     	<legend>Finally, enter your payment information</legend>
-      <h4>Use Paypal</h4>
-    	<label for="credit-card">Card Number</label>
-      <input type="text" inputmode="numeric" id="cc" name="credit-card" />
-      <label for="security-code">Security Code</label>
-      <input type="text" inputmode="numeric" id="sc" name="security-code" />
-      <label for="expiration-date">Expiration Date</label>
-      <select name="month">
+    	<label for="credit-card">Card Number</label></br>
+      <input type="text" inputmode="numeric" id="cc" name="credit-card" /></br>
+      <label for="security-code">Security Code</label></br>
+      <input type="text" inputmode="numeric" id="sc" name="security-code" /></br>
+      <label for="expiration-date">Expiration Date</label></br>
+      <select name="month" class="month">
 				<option value="mon" selected="selected">Month</option>
 				<option value="jan">January</option>
 				<option value="feb">February</option>
@@ -77,8 +76,8 @@
       </select>
     </fieldset>
     </div><!--end payment-->
-    <div class="button">
-    	<h3>Create your portfolio</h3>
+    <div>
+    	<input type="submit" value="Create your portfolio" class="button"/>
     </div><!--end button-->
   </div><!--end content-->
   </div><!--end wrapper-->
